@@ -1,8 +1,7 @@
 'use strict';
 
 exports.modules = {
-    USER: "user",
-    ATM : "atm"
+    USER : 'user'
 }
 
 exports.responseMessages = {

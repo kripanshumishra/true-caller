@@ -3,10 +3,9 @@
 const moment = require('moment');
 
 const fileSwitches = {
-    startup : true,
-    atm : true,
-    user: true
+    user : true
 };
+
 
 const modules = {
     startup : {
@@ -15,11 +14,6 @@ const modules = {
     user : {
         login : true,
         register : true,
-    },
-    atm : {
-        addCard : true,
-        withdraw : true,
-        deposit : true
     }
 }
 
